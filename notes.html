@@ -105,3 +105,147 @@ commd:~/workspace/bs4 (master) $
  
  
  
+ 
+ 
+ 
+ 
+ 
+ /****
+  * Useful Links and commands show committing a change to notes.html
+  ****/
+  
+  https://www.codecademy.com/articles/push-to-github
+  
+  https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
+  
+  commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   notes.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commd:~/workspace/bs4 (master) $ git commit -m "Updated notes.html to show initial commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   notes.html
+
+no changes added to commit
+commd:~/workspace/bs4 (master) $ git push -u  origin master
+Username for 'https://github.com': vidscmd@netscape.net
+Password for 'https://vidscmd@netscape.net@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   notes.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commd:~/workspace/bs4 (master) $ git commit -a
+Aborting commit due to empty commit message.
+commd:~/workspace/bs4 (master) $ git push -u  origin master
+Username for 'https://github.com': vidscmd@netscape.net
+Password for 'https://vidscmd@netscape.net@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   notes.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commd:~/workspace/bs4 (master) $ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+commd:~/workspace/bs4 (master) $ git add .
+commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   notes.html
+
+commd:~/workspace/bs4 (master) $ git push -u  origin master
+Username for 'https://github.com': vidscmd@netscape.net
+Password for 'https://vidscmd@netscape.net@github.com': 
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   notes.html
+
+commd:~/workspace/bs4 (master) $ git push
+Username for 'https://github.com': vidscmd@netscape.net
+Password for 'https://vidscmd@netscape.net@github.com': 
+Everything up-to-date
+commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   notes.html
+
+commd:~/workspace/bs4 (master) $ git commit -m "Updated notes.html to show initial commit"
+[master 09c846e] Updated notes.html to show initial commit
+ 1 file changed, 67 insertions(+), 1 deletion(-)
+commd:~/workspace/bs4 (master) $ git status
+                                           On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+commd:~/workspace/bs4 (master) $ git push
+Username for 'https://github.com': vidscmd@netscape.net
+Password for 'https://vidscmd@netscape.net@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.34 KiB | 1.34 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/commd/bs4.git
+   ebb53d6..09c846e  master -> master
+commd:~/workspace/bs4 (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+commd:~/workspace/bs4 (master) $ 
+
+/****
+ * End of links and commands showing new commits and changes: 
+ *
+ * basically: 
+ *  git add . 
+ *  git commit -m "message"
+ *  git push
+ ****/
+ 
+ 
+ 
