@@ -1,9 +1,27 @@
-$bg-color: red; 
+// // Variable Overrides 
+$body-bg: #ededed;
 
-body {
-    background: $bg-color;
-}
+$theme-colors: (
+  "primary": #d95700
+);
 
-h1 {
-    color: white;
-}
+// $body-bg: #ededed;
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Variable Overrides 
+// $theme-colors: (
+//   "primary": #d95700
+// );
+
+
+// $blue:    #007bff !default;
+
+
+
+// $body-bg: #ededed;
+
+// body {
+//      background: $body-bg;
+//  }
